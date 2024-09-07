@@ -10,17 +10,16 @@ Clone this repo to your computer and copy the rp2040-lora-slowclock folder to th
 
 **Initial Configuration**
 
-As mentioned in the introduction, best way to set up is to make all the configuration changes while running the "normal" firmware from a pre-2.5 version (eg the last Besta - 2.4.2) and installing the "slowclock" once the device is set up to your liking. If you are going to run a pre-2.5 "slowclock" firmware, then set up an "admin" channel during your initial configuration to let you manage the device once you install the "slowclock" variant. Use the "update" option (not "wipe") when installing the "slowclock" variant to preserve the settings.
-
+As mentioned in the introduction, best way to set up is to make all the configuration changes while running the "normal" firmware  and installing the "slowclock" once the device is set up to your liking. If you are going to run a pre-2.5 "slowclock" firmware, then set up an "admin" channel during your initial configuration to let you manage the device once you install the "slowclock" variant. 
 
 **Remote Configuration**
 
-Meshtastic 2.5.0 just came out, introducing PKI but also deprecating the admin channel in the process. I don't have an Apple device so I have no way of testing remote administration for now on that version. If you're running a pre-2.5 version then set up an "admin" channel that will allow you to manage the "slowclock" device from another Meshtastic node.
+Tech Previews for Meshtastic 2.5.0 have been coming out, introducing PKI but also deprecating the "admin" channel in the process. I don't have an Apple device so I can't test remote administration for now on the Tech Previews. If you're running a pre-2.5 version then set up an "admin" channel that will allow you to manage the "slowclock" device from another Meshtastic node that shares the "admin" channel.
 
 
 **Firmware Binaries**
 
-I will occasionally build binaries - whenever I update my own nodes - and will upload them here. For now I have provided the 2.4.2 (Beta), 2.4.3 (Alpha Hotfix) and two 2.5.0 binaries. I can build an older version on request.
+I will occasionally build binaries - whenever I update my own nodes - and will upload them here. For now I have provided the 2.4.2 (Beta), 2.4.3 (Alpha Hotfix) and the 2.5.0 Tech Preview binaries. I can build an older version on request.
 
 
 **Other**
